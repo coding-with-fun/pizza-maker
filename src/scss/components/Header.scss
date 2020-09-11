@@ -1,0 +1,26 @@
+.header {
+	padding: 15px 50px;
+	background-color: #0d0628;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.header__elements {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+
+		.header__heading {
+			color: yellow;
+			margin-left: 20px;
+			font-size: 30px;
+			font-family: 'Alata', sans-serif;
+		}
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.header {
+		padding-left: 15px;
+	}
+}

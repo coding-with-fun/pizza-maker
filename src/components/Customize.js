@@ -3,10 +3,6 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import Cheese from '../assets/BaseCheese.png';
 import Basil from '../assets/Basil.png';
-import Mushroom from '../assets/Mushroom.png';
-import Olive from '../assets/Olive.png';
-import Pineapple from '../assets/Pineapple.png';
-import Base from '../assets/PizzaBase.png';
 import Tomato from '../assets/Tomato.png';
 
 export default function Customize({ ingredients, setIngredients }) {

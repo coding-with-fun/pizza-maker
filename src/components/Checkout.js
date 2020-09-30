@@ -11,23 +11,6 @@ export default function Checkout({ ingredients }) {
 			<div className='checkout__ingredients'>
 				<h1>My Ingredients</h1>
 
-				<div className='ingredients'>
-					{Object.keys(ingredients).reduce((acc, ing) => {
-						return acc + ingredients[ing] ? 1 : 0;
-					}, 0) === 0 && <p>No ingredients Selected</p>}
-
-					{Object.keys(ingredients).map((ingredient) => {
-						return (
-							ingredients[ingredient] && (
-								<p key={ingredient}>
-									{ingredient[0].toUpperCase()}
-									{ingredient.substr(1)}
-								</p>
-							)
-						);
-					})}
-				</div>
-
 				<div>
 					<button
 						className='checkout__button'
